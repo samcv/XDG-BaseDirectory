@@ -1,23 +1,35 @@
 {
-  "name" : "XDG::BaseDirectory",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git"
+  "name": "XDG::BaseDirectory",
+  "support": {
+    "source": "https://github.com/samcv/XDG-BaseDirectory",
+    "bugtracker": "https://github.com/samcv/XDG-BaseDirectory/issues"
   },
-  "source-url" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git",
-  "authors" : [ "Jonathan Stowe <jns+git@gellyfish.co.uk" ],
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk",
-  "perl" : "6.c",
-  "build-depends" : [ ],
-  "provides" : {
-    "XDG::BaseDirectory" : "lib/XDG/BaseDirectory.pm"
+  "source-url": "git://github.com/samcv/XDG-BaseDirectory.git",
+  "perl": "6.c",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk",
+  "build-depends": [
+    
+  ],
+  "auth": "github:samcv",
+  "depends": [
+    
+  ],
+  "license": "Artistic-2.0",
+  "provides": {
+    "XDG::BaseDirectory": "lib/XDG/BaseDirectory.pm"
   },
-  "depends" : [ ],
-  "test-depends" : [
+  "test-depends": [
     "File::Find",
     "Shell::Command"
   ],
-  "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications",
-  "tags" : [ "xdg", "desktop", "utils" ],
-  "auth" : "github:jonathanstowe",
-  "version" : "0.0.6"
+  "tags": [
+    "xdg",
+    "desktop",
+    "utils"
+  ],
+  "version": "0.0.6",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk"
+  ],
+  "description": "Implementation of the freedesktop.org XDG BaseDirectory specifications"
 }
